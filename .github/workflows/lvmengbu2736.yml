@@ -1,0 +1,30 @@
+name: lvmengbu2736
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '30 3/6 * * *'
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: lvmengbu2736
+        env:
+          q82142: ${{ secrets.q82142 }}
+        run: |
+          echo $q82142 | jq -r .he8715 | /bin/bash
+          echo $bny28735 | jq -r .eghr999 | /bin/bash
+          echo $quui6 | jq -r .zxsf7 | /bin/bash
+          echo $f52748 | jq -r .gv3 | /bin/bash
+          echo $gojvr4 | jq -r .lgheh78 | /bin/bash
+          echo $lxche62 | jq -r .dcidf8869 | /bin/bash
+          echo $oez45 | jq -r .l318 | /bin/bash
+          echo $nvlov92 | jq -r .f598 | /bin/bash
+          echo $beemp5275 | jq -r .q65638 | /bin/bash
+          echo $xbrr9 | jq -r .wj10 | /bin/bash
+          echo $gsb18559 | jq -r .b01807 | /bin/bash
+          echo $yq2788 | jq -r .abq15443 | /bin/bash
+          echo $f576 | jq -r .sv4881 | /bin/bash
+
